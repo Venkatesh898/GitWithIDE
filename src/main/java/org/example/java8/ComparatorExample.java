@@ -11,7 +11,7 @@ public class ComparatorExample {
         Employee e2=new Employee(2,"Ram",24);
         Employee e3=new Employee(3,"Mohan",25);
         List<Employee>l= Arrays.asList(e1,e2,e3);
-        System.out.println("before Sorting");
+        System.out.println("Before Sorting");
         for(Employee e:l)
             System.out.println(e.getEname());
         Collections.sort(l,(em1,em2)->em1.getEname().compareTo(em2.getEname()));
